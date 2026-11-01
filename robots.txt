@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maddshiidrecords.github.io/sitemap.xml
