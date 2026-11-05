@@ -1,0 +1,37 @@
+{
+  "_help": "EDIT THIS FILE to change what the Listen page shows. The GitHub Action reads it and writes data/youtube.json (never edit that one by hand).",
+
+  "musicChannels": [
+    { "id": "UCSmWjeY9tcXVFcCUGvu4VAA" },
+    { "id": "UC_cJVmr1G_-2w0M2e2MDzXA" },
+    { "id": "UCRZOBh93m7J9pXmyont60NA" },
+    { "id": "UCaE_ofWikKuOj-HdpImc79g" }
+  ],
+
+  "videoChannels": [
+    { "handle": "BreedXIVEVO" },
+    { "handle": "HomieLee23VEVO" },
+    { "handle": "maddshiidrecords" }
+  ],
+
+  "albums": [
+    "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg",
+    "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs",
+    "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4",
+    "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE",
+    "OLAK5uy_luVRwHeNG_NpDKlQV73YvCZ-jQszDdfqU",
+    "OLAK5uy_nKZd2tcRW7D6DVsHEMbPveTs5ykO-yzG0",
+    "OLAK5uy_ngoKQzJn6nhZux0ngXdyngWnfsdXdBDqE"
+  ],
+
+  "pinnedVideos": [
+    "j9ZcmQLiDI8",
+    "K3ab0kxknfU",
+    "bKuiux4lTJ4",
+    "a0TuwQCxVwE",
+    "aquah1wi20g",
+    "1YWAP4a1IeU",
+    "pC9NtMChZTQ",
+    "vZUcbMcC74U"
+  ]
+}
