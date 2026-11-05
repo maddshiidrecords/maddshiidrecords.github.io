@@ -1,23 +1,666 @@
 {
-  "updated": null,
-  "music": [],
+  "updated": "2026-11-05T12:10:07.381Z",
+  "music": [
+    {
+      "id": "1uFVS6ksrks",
+      "title": "Happenin",
+      "artist": "Hassan Black",
+      "published": "2026-10-29T10:04:04+00:00",
+      "albumId": "OLAK5uy_luVRwHeNG_NpDKlQV73YvCZ-jQszDdfqU"
+    },
+    {
+      "id": "zmbRaNdLST8",
+      "title": "Happenin (Instrumental)",
+      "artist": "Hassan Black",
+      "published": "2026-10-29T10:02:30+00:00",
+      "albumId": "OLAK5uy_luVRwHeNG_NpDKlQV73YvCZ-jQszDdfqU"
+    },
+    {
+      "id": "yxxzr2Vv_co",
+      "title": "Hassan Black, Breed XI - I Won't (Official Visualizer)",
+      "artist": "Hassan Black",
+      "published": "2026-10-21T15:09:58+00:00",
+      "albumId": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE"
+    },
+    {
+      "id": "Ne6IgYgTSjI",
+      "title": "Hassan Black, Breed XI - Love You (Official Visualizer)",
+      "artist": "Hassan Black",
+      "published": "2026-09-27T07:46:12+00:00"
+    },
+    {
+      "id": "pC9NtMChZTQ",
+      "title": "Hassan Black, Breed XI - Navigation (Official Visualizer)",
+      "artist": "Hassan Black",
+      "published": "2026-09-22T14:56:45+00:00"
+    },
+    {
+      "id": "IMu9A5V637I",
+      "title": "Hassan Black, Rockysjam - Mo Cheese (Official Visualizer)",
+      "artist": "Hassan Black",
+      "published": "2026-09-17T12:19:36+00:00",
+      "albumId": "OLAK5uy_ngoKQzJn6nhZux0ngXdyngWnfsdXdBDqE"
+    },
+    {
+      "id": "Hlh-2dUy0bA",
+      "title": "Hassan Black, Rockysjam - Mo Cheese Instrumental (Visualizer)",
+      "artist": "Hassan Black",
+      "published": "2026-09-12T13:16:50+00:00",
+      "albumId": "OLAK5uy_ngoKQzJn6nhZux0ngXdyngWnfsdXdBDqE"
+    },
+    {
+      "id": "SxRqnLNQ6q0",
+      "title": "Hassan Black, Breed XI - Dance with Me II (Official Music Visualizer) ft. HomieLee",
+      "artist": "Hassan Black",
+      "published": "2026-08-20T09:49:08+00:00"
+    },
+    {
+      "id": "jRee47NvwXI",
+      "title": "Hassan Black, Eleven23 - Soft Landing (Official Music Visualizer)",
+      "artist": "Hassan Black",
+      "published": "2026-08-19T11:34:04+00:00"
+    },
+    {
+      "id": "uGdVCEvIHjg",
+      "title": "The hardest trap instrumental out right now: Mo Cheese #TrapMusic #Beats #Instrumental",
+      "artist": "Hassan Black",
+      "published": "2026-07-28T09:04:35+00:00"
+    },
+    {
+      "id": "cV-PQH1_ki8",
+      "title": "Hassan Black, Breed XI, HomieLee - Transformer (Future) #TrapMusic #HipHop #MaddShiidRecords",
+      "artist": "Hassan Black",
+      "published": "2026-07-28T04:26:19+00:00"
+    },
+    {
+      "id": "lBUnWCPa8a4",
+      "title": "Hassan Black - Transformer (Future) [Instrumental] #music #maddshiidrecords #trap #beats",
+      "artist": "Hassan Black",
+      "published": "2026-07-26T06:01:15+00:00"
+    },
+    {
+      "id": "0BGDJhzM9SI",
+      "title": "Hassan Black, Breed XI - Don't You See  #Beats #RageBeat #HipHop",
+      "artist": "Hassan Black",
+      "published": "2026-07-24T12:01:32+00:00"
+    },
+    {
+      "id": "fNhCRvpduW4",
+      "title": "Hassan Black - Don't You See (Instrumental) #Beats #RageBeat #HipHop",
+      "artist": "Hassan Black",
+      "published": "2026-07-23T11:38:30+00:00"
+    },
+    {
+      "id": "aOlK12LZMCk",
+      "title": "Hassan Black, Breed XI - Wrong or Right #Beats #HipHop",
+      "artist": "Hassan Black",
+      "published": "2026-07-22T10:05:36+00:00"
+    },
+    {
+      "id": "z4svyXVIDoM",
+      "title": "Hassan Black - Wrong or Right (Instrumental) #Beats #HipHop",
+      "artist": "Hassan Black",
+      "published": "2026-07-21T14:31:51+00:00"
+    },
+    {
+      "id": "aE5jV1Gm764",
+      "title": "Hassan Black, Breed XI - Found You #Beats #Instrumental #HipHop",
+      "artist": "Hassan Black",
+      "published": "2026-07-19T23:00:34+00:00"
+    },
+    {
+      "id": "RtYZBaqPq78",
+      "title": "Hassan Black, Breed XI - Found You",
+      "artist": "Hassan Black",
+      "published": "2026-07-19T22:00:38+00:00",
+      "albumId": "OLAK5uy_nKZd2tcRW7D6DVsHEMbPveTs5ykO-yzG0"
+    },
+    {
+      "id": "_lTci4qT7LI",
+      "title": "Stones",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:04:58+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "36En1PZMWiI",
+      "title": "Surprised (I Changed)",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:04:53+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "YTLwGNwu1Gg",
+      "title": "Pvp",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:04:15+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "fdxR0e3orqM",
+      "title": "Clouds",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:03:55+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "3hxMw3SL1cM",
+      "title": "I Wanna Be with You (Too Late)",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:02:01+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "MVsAoZTFMDs",
+      "title": "Night Sky (Mame32)",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:01:49+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "XG5PBp5X-R8",
+      "title": "4 Dollar Bills",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:01:49+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "8Jg875i6Qm0",
+      "title": "Too Real 2 (Real Me)",
+      "artist": "Hassan Black",
+      "published": "2026-03-11T10:01:38+00:00",
+      "albumId": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg"
+    },
+    {
+      "id": "IzxnaEj5SIk",
+      "title": "Won't Explain Myself",
+      "artist": "Breed XI",
+      "published": "2026-02-25T10:04:17+00:00",
+      "albumId": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4"
+    },
+    {
+      "id": "5ql58vv41C8",
+      "title": "Pretty Thugs",
+      "artist": "Breed XI",
+      "published": "2026-02-25T10:04:09+00:00",
+      "albumId": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4"
+    },
+    {
+      "id": "r8F7p9ed3Ew",
+      "title": "Use Me",
+      "artist": "Breed XI",
+      "published": "2026-02-25T10:03:17+00:00",
+      "albumId": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4"
+    },
+    {
+      "id": "CZS_UrEy_a0",
+      "title": "Kiss It Right",
+      "artist": "Breed XI",
+      "published": "2026-02-25T10:02:53+00:00",
+      "albumId": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4"
+    },
+    {
+      "id": "8SHNwyJlUvg",
+      "title": "Memories",
+      "artist": "Breed XI",
+      "published": "2026-02-25T10:02:38+00:00",
+      "albumId": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4"
+    },
+    {
+      "id": "GaPCLs-yNEQ",
+      "title": "Fireworks",
+      "artist": "Breed XI",
+      "published": "2026-02-25T10:01:29+00:00",
+      "albumId": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4"
+    },
+    {
+      "id": "NAhOL7uoL5A",
+      "title": "Found You (Instrumental)",
+      "artist": "Hassan Black",
+      "published": "2025-07-29T10:02:41+00:00",
+      "albumId": "OLAK5uy_nKZd2tcRW7D6DVsHEMbPveTs5ykO-yzG0"
+    },
+    {
+      "id": "PJU_YvnzFxs",
+      "title": "Perfectly Unperfect",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:04:55+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "OQMcast6UUc",
+      "title": "A Team",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:04:13+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "Xihe30vK_XM",
+      "title": "Ain't a Crime (Winning)",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:03:36+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "dgFHLH-F8Eg",
+      "title": "Go Go Go",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:03:34+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "cja2emMJ-qA",
+      "title": "BG (Bully Gang)",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:03:34+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "VrG6ga09VIA",
+      "title": "Young and Ballin' (Reckless)",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:03:16+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "oBjNNXuM_PU",
+      "title": "Tonight",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:02:22+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "dCzGjj6BDtA",
+      "title": "Rock Hard",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:02:16+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "yUHXgo7vW2o",
+      "title": "Rewind the Night",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:02:05+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "npUfl6xm-v4",
+      "title": "Good Kush & Drank",
+      "artist": "Hassan Black",
+      "published": "2024-12-18T10:01:23+00:00",
+      "albumId": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs"
+    },
+    {
+      "id": "YGZQdQvZxjo",
+      "title": "Temporary Love",
+      "artist": "Hassan Black",
+      "published": "2024-06-23T10:04:38+00:00",
+      "albumId": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE"
+    },
+    {
+      "id": "KO7exA_U5Hw",
+      "title": "Do's & Don't",
+      "artist": "Hassan Black",
+      "published": "2024-06-23T10:04:17+00:00",
+      "albumId": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE"
+    },
+    {
+      "id": "ncMe27hcm_4",
+      "title": "Exploit",
+      "artist": "Hassan Black",
+      "published": "2024-06-23T10:03:00+00:00",
+      "albumId": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE"
+    },
+    {
+      "id": "2kzGmbY5-zQ",
+      "title": "Rain",
+      "artist": "Hassan Black",
+      "published": "2024-06-23T10:02:47+00:00",
+      "albumId": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE"
+    },
+    {
+      "id": "VEgUnr1tD8A",
+      "title": "Foreign Money",
+      "artist": "Hassan Black",
+      "published": "2024-06-23T10:02:11+00:00",
+      "albumId": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE"
+    }
+  ],
   "albums": [
-    { "id": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg", "title": "Mame32", "artist": "", "tracks": [] },
-    { "id": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs", "title": "Overdrive 2", "artist": "", "tracks": [] },
-    { "id": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4", "title": "Takes Two to Tango", "artist": "", "tracks": [] },
-    { "id": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE", "title": "Drama", "artist": "", "tracks": [] },
-    { "id": "OLAK5uy_luVRwHeNG_NpDKlQV73YvCZ-jQszDdfqU", "title": "Happenin", "artist": "", "tracks": [] },
-    { "id": "OLAK5uy_nKZd2tcRW7D6DVsHEMbPveTs5ykO-yzG0", "title": "Found You", "artist": "", "tracks": [] },
-    { "id": "OLAK5uy_ngoKQzJn6nhZux0ngXdyngWnfsdXdBDqE", "title": "", "artist": "", "tracks": [] }
+    {
+      "id": "OLAK5uy_lXy4kXDWPnYZ5jnJbGQKzthXigvYdWjzg",
+      "title": "Mame32",
+      "artist": "YouTube",
+      "tracks": [
+        {
+          "id": "3hxMw3SL1cM",
+          "title": "I Wanna Be with You (Too Late)"
+        },
+        {
+          "id": "36En1PZMWiI",
+          "title": "Surprised (I Changed)"
+        },
+        {
+          "id": "8Jg875i6Qm0",
+          "title": "Too Real 2 (Real Me)"
+        },
+        {
+          "id": "_lTci4qT7LI",
+          "title": "Stones"
+        },
+        {
+          "id": "fdxR0e3orqM",
+          "title": "Clouds"
+        },
+        {
+          "id": "MVsAoZTFMDs",
+          "title": "Night Sky (Mame32)"
+        },
+        {
+          "id": "XG5PBp5X-R8",
+          "title": "4 Dollar Bills"
+        },
+        {
+          "id": "YTLwGNwu1Gg",
+          "title": "Pvp"
+        }
+      ]
+    },
+    {
+      "id": "OLAK5uy_m7wLzmX2ePtUbGleiuAuAOsgQGRNApkRs",
+      "title": "Overdrive 2",
+      "artist": "YouTube",
+      "tracks": [
+        {
+          "id": "dgFHLH-F8Eg",
+          "title": "Go Go Go"
+        },
+        {
+          "id": "dCzGjj6BDtA",
+          "title": "Rock Hard"
+        },
+        {
+          "id": "VrG6ga09VIA",
+          "title": "Young and Ballin' (Reckless)"
+        },
+        {
+          "id": "OQMcast6UUc",
+          "title": "A Team"
+        },
+        {
+          "id": "cja2emMJ-qA",
+          "title": "BG (Bully Gang)"
+        },
+        {
+          "id": "npUfl6xm-v4",
+          "title": "Good Kush & Drank"
+        },
+        {
+          "id": "PJU_YvnzFxs",
+          "title": "Perfectly Unperfect"
+        },
+        {
+          "id": "oBjNNXuM_PU",
+          "title": "Tonight"
+        },
+        {
+          "id": "yUHXgo7vW2o",
+          "title": "Rewind the Night"
+        },
+        {
+          "id": "Xihe30vK_XM",
+          "title": "Ain't a Crime (Winning)"
+        }
+      ]
+    },
+    {
+      "id": "OLAK5uy_n_xkGPLx_N4Mtj5azdt62yXuO3CTS3XW4",
+      "title": "Takes Two to Tango",
+      "artist": "YouTube",
+      "tracks": [
+        {
+          "id": "5ql58vv41C8",
+          "title": "Pretty Thugs"
+        },
+        {
+          "id": "GaPCLs-yNEQ",
+          "title": "Fireworks"
+        },
+        {
+          "id": "IzxnaEj5SIk",
+          "title": "Won't Explain Myself"
+        },
+        {
+          "id": "CZS_UrEy_a0",
+          "title": "Kiss It Right"
+        },
+        {
+          "id": "r8F7p9ed3Ew",
+          "title": "Use Me"
+        },
+        {
+          "id": "8SHNwyJlUvg",
+          "title": "Memories"
+        }
+      ]
+    },
+    {
+      "id": "OLAK5uy_lS6QP3oSmhJbf1VxcdsjgunoS4McswTnE",
+      "title": "Drama",
+      "artist": "YouTube",
+      "tracks": [
+        {
+          "id": "KO7exA_U5Hw",
+          "title": "Do's & Don't"
+        },
+        {
+          "id": "YGZQdQvZxjo",
+          "title": "Temporary Love"
+        },
+        {
+          "id": "yxxzr2Vv_co",
+          "title": "Hassan Black, Breed XI - I Won't (Official Visualizer)"
+        },
+        {
+          "id": "ncMe27hcm_4",
+          "title": "Exploit"
+        },
+        {
+          "id": "2kzGmbY5-zQ",
+          "title": "Rain"
+        },
+        {
+          "id": "VEgUnr1tD8A",
+          "title": "Foreign Money"
+        }
+      ]
+    },
+    {
+      "id": "OLAK5uy_luVRwHeNG_NpDKlQV73YvCZ-jQszDdfqU",
+      "title": "Happenin",
+      "artist": "YouTube",
+      "tracks": [
+        {
+          "id": "1uFVS6ksrks",
+          "title": "Happenin"
+        },
+        {
+          "id": "zmbRaNdLST8",
+          "title": "Happenin (Instrumental)"
+        }
+      ]
+    },
+    {
+      "id": "OLAK5uy_nKZd2tcRW7D6DVsHEMbPveTs5ykO-yzG0",
+      "title": "Found You",
+      "artist": "YouTube",
+      "tracks": [
+        {
+          "id": "RtYZBaqPq78",
+          "title": "Hassan Black, Breed XI - Found You"
+        },
+        {
+          "id": "NAhOL7uoL5A",
+          "title": "Found You (Instrumental)"
+        }
+      ]
+    },
+    {
+      "id": "OLAK5uy_ngoKQzJn6nhZux0ngXdyngWnfsdXdBDqE",
+      "title": "Mo Cheese",
+      "artist": "YouTube",
+      "tracks": [
+        {
+          "id": "IMu9A5V637I",
+          "title": "Hassan Black, Rockysjam - Mo Cheese (Official Visualizer)"
+        },
+        {
+          "id": "Hlh-2dUy0bA",
+          "title": "Hassan Black, Rockysjam - Mo Cheese Instrumental (Visualizer)"
+        }
+      ]
+    }
   ],
   "videos": [
-    { "id": "j9ZcmQLiDI8", "title": "", "artist": "" },
-    { "id": "K3ab0kxknfU", "title": "", "artist": "" },
-    { "id": "bKuiux4lTJ4", "title": "", "artist": "" },
-    { "id": "a0TuwQCxVwE", "title": "", "artist": "" },
-    { "id": "aquah1wi20g", "title": "", "artist": "" },
-    { "id": "1YWAP4a1IeU", "title": "", "artist": "" },
-    { "id": "pC9NtMChZTQ", "title": "", "artist": "" },
-    { "id": "vZUcbMcC74U", "title": "", "artist": "" }
-  ]
+    {
+      "id": "aquah1wi20g",
+      "title": "Breed XI - Empty Space (Official Music Video)",
+      "artist": "BreedXIVEVO",
+      "published": "2026-10-26T01:15:30+00:00"
+    },
+    {
+      "id": "a0TuwQCxVwE",
+      "title": "Homielee, Breed XI, Hassan Black - X (Official Music Video) ft. Featuring Swv5y",
+      "artist": "HomieLee23VEVO",
+      "published": "2026-09-15T10:35:35+00:00"
+    },
+    {
+      "id": "bKuiux4lTJ4",
+      "title": "Breed XI, Hassan Black, HomieLee - A Team",
+      "artist": "BreedXIVEVO",
+      "published": "2025-09-05T04:20:00+00:00"
+    },
+    {
+      "id": "u0rJ6qOvx3I",
+      "title": "🏀💸 Another fire snippet from #Overdrive2! 🔥FOLLOW TO STAY TUNED👍 #maddshiidrecords #HipHop #NewMusic",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-12-05T12:44:46+00:00"
+    },
+    {
+      "id": "K3ab0kxknfU",
+      "title": "Breed XI, Hassan Black - No New Friends ft. Homielee",
+      "artist": "BreedXIVEVO",
+      "published": "2024-12-03T17:15:01+00:00"
+    },
+    {
+      "id": "97euSQ8xhaA",
+      "title": "🚨LATE NIGHT WITH FRIENDS (ft. Breed XI, HomieLee)🤣🤣🔥",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-11-27T12:59:39+00:00"
+    },
+    {
+      "id": "_t6HX5oetHg",
+      "title": "Madd'Shiid Records, Hassan Black - AK-47 (MUSIC VISUALIZER, FAN-MADE)",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-11-27T11:29:22+00:00"
+    },
+    {
+      "id": "2ekKpSypswI",
+      "title": "🚨Homielee takes off on 'No New Friends' 🚀🔥 Overdrive EP #maddshiidrecords #hiphop #musicvideo #edit",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-11-21T13:21:39+00:00"
+    },
+    {
+      "id": "W4ddp_iHjVE",
+      "title": "🚨NO NEW FRIENDS🔥😤 THE INTRO🚀  #maddshiidrecords #hiphop #musicvideo #edit",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-11-21T13:12:41+00:00"
+    },
+    {
+      "id": "Yk9IVllnWAs",
+      "title": "🚨NO NEW FRIENDS😤🔥🚀 Breed XI, Homielee 🎶 #shorts #maddshiidrecords #hiphop #musicvideo",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-11-21T13:04:20+00:00"
+    },
+    {
+      "id": "ptJeTTXSgWA",
+      "title": "No fakes around🔥😤 No New Friends 🎶🔥 Breed Xl, Homielee #shorts #maddshiidrecords #hiphop #musicvideo",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-11-21T12:58:14+00:00"
+    },
+    {
+      "id": "zg1AR_EVU7U",
+      "title": "Invincible by Homielee 😤🔥🚀 Prod by Breed XI 💯 #shorts #maddshiidrecords #hiphop",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-11-21T12:48:51+00:00"
+    },
+    {
+      "id": "9bsDg1UbyHM",
+      "title": "Emo Kid II INTRO 🎶 📹🔥 #maddshiidrecords #hiphop #rnbsoul #musicvideo",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-10-22T08:05:46+00:00"
+    },
+    {
+      "id": "yKWtIAsJuqM",
+      "title": "Emo Kid II 🔥📹 SNIPPET #maddshiidrecords #hiphop #rnbsoul",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-10-22T08:00:08+00:00"
+    },
+    {
+      "id": "dDTzmLOkCgE",
+      "title": "\"Rockstar life, bruh\"🔥😤 #maddshiidrecords #hiphop #rnbsoul #musicvideo",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-10-22T07:57:52+00:00"
+    },
+    {
+      "id": "_vygfKTdlls",
+      "title": "Breed Xl's verse is FIRE 🔥 😤 #maddshiirecords #hiphop #rnbsoul #musicvideo #vevo",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-10-22T07:55:04+00:00"
+    },
+    {
+      "id": "NSZPlut4MdY",
+      "title": "\"She going crazy she losing her mind!\"🔥 Emo Kid II Music video  #maddshiidrecords #hiphop #rnbsoul",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-10-22T07:51:53+00:00"
+    },
+    {
+      "id": "TOzJnRs2nHQ",
+      "title": "\"Emo Kid II\" OFFICIAL VIDEO 📹 SNIPPET 🔥 VEVO #maddshiidrecords #hiphop #rnbsoul",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-10-22T07:47:36+00:00"
+    },
+    {
+      "id": "D5WW48UX0HQ",
+      "title": "Emo Kid II is hot 🔥 😤 #shorts #maddshiidrecords #musicvideo",
+      "artist": "Madd'Shiid Records",
+      "published": "2024-10-07T15:50:14+00:00"
+    },
+    {
+      "id": "j9ZcmQLiDI8",
+      "title": "Breed XI, Hassan Black - Emo Kid II ft. Homielee",
+      "artist": "BreedXIVEVO",
+      "published": "2024-09-23T09:50:00+00:00"
+    },
+    {
+      "id": "1YWAP4a1IeU",
+      "title": "Good Kush & Drank [Official Music Video]",
+      "artist": "Madd'Shiid Records"
+    },
+    {
+      "id": "pC9NtMChZTQ",
+      "title": "Hassan Black, Breed XI - Navigation (Official Visualizer)",
+      "artist": "Hassan Black"
+    },
+    {
+      "id": "vZUcbMcC74U",
+      "title": "Young and Ballin' (Reckless) [Official Music Video]",
+      "artist": "Madd'Shiid Records"
+    }
+  ],
+  "resolved": {
+    "BreedXIVEVO": "UClGAJ2nlrW_kWaPVfW_x2qQ",
+    "HomieLee23VEVO": "UCPPv41_oP_70H--mW5TTi5g",
+    "maddshiidrecords": "UCqNop72ArkGRlWWE90HHKIA"
+  }
 }
