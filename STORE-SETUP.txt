@@ -1,0 +1,81 @@
+MADD'SHIID RECORDS - STORE PAGE: SETUP
+======================================
+
+WHAT'S IN THIS ZIP (copy into the ROOT of your repo, same place as index.html)
+  store.html               <- the store (ONE file: HTML + CSS + JS, matches the rest of the site)
+  images/store/tee-black.jpg   <- the tee picture
+  index.html               <- only change: every "Store" link now goes to store.html
+  listen.html              <- only change: Store link, Store icon and the "store" command go to store.html
+  sitemap.xml              <- store.html added
+  (data/ and .github/ are NOT in this zip on purpose, so your YouTube robot's list is never overwritten.)
+
+STEPS
+  1. github.com > your repo > Add file > Upload files > drag these in (keep the images/store folder). Commit.
+  2. Wait a minute, open https://maddshiidrecords.github.io/store.html
+  3. Every item says "Coming soon" until you paste its checkout link (next section).
+
+HOW MONEY AND FILES STAY SAFE (why there is no "backend")
+  - GitHub Pages only serves static files. There is no server, database or password on your site to hack.
+  - You never touch card details. The Buy button opens your payment provider's own secure page
+    (Gumroad, Big Cartel, Stripe, Paystack, PayPal...). They handle the card, the receipt, tax rules and fraud.
+  - Your paid files (the Mame32 ZIP) live INSIDE the payment provider, NOT in this GitHub repo.
+    Anything in a public repo can be downloaded by anyone for free. Never upload the ZIP here.
+  - Never paste API keys, secret keys or passwords into any file in this repo. You don't need any.
+  - The page has a security policy (Content-Security-Policy) so only your own code can run, and
+    Buy buttons only open https links on approved payment sites (list called PAY_HOSTS inside store.html).
+    A typo or a bad link just shows "Coming soon" instead of sending buyers somewhere dodgy.
+
+ADD YOUR CHECKOUT LINKS (about 5 minutes per item)
+  Do this on Gumroad (you already have an account) or any provider you prefer, then copy the item's link.
+
+  A) Mame32 ZIP (digital)
+     - Gumroad > Products > New product > Digital product. Name: Mame32.
+     - Upload ONE zip: Mame32.zip containing the tracks (MP3 320 and/or WAV), cover art, a tracklist.txt.
+       Tip: WAV in one zip and MP3 in another zip as two files in the same product lets buyers pick.
+     - Set the price. There is a "let customers pay what they want" option if you want a minimum + tips.
+     - Publish. Copy the product link (looks like https://maddshiidrecords.gumroad.com/l/xxxx).
+     - Buyers get the download straight after paying and by email. You do nothing.
+
+  B) The tee (physical)
+     - Wherever the shirt is printed/fulfilled (print-on-demand or your own stock), use that shop's product link.
+     - On Gumroad you can also make a Physical product with sizes as "versions" and set shipping prices.
+     - If a print-on-demand shop (Printful, Printify...) is connected to Big Cartel, use the Big Cartel
+       product link. Print-on-demand means no stock to buy up front.
+
+  C) Mixing & mastering (service)
+     - Make it a product (Gumroad digital product works). In the product's receipt/content message
+       write exactly how to send files: stems or WAV, reference track, notes, where to upload (Google Drive,
+       WeTransfer...), and the turnaround time. Buyers see this right after paying.
+     - If you want tiers (Mix / Master / Mix + Master), make one product per tier.
+
+  Then open store.html in your repo (click the file > pencil icon). Near the bottom, find your item and paste
+  the link between the quotes:      "checkout": "https://maddshiidrecords.gumroad.com/l/xxxx",
+  Commit. The button turns into "Buy now". Done.
+
+EDIT PRICES AND TEXT
+  The prices in the file (tee $25, Mame32 $5, mixing from $30) are SAMPLES. Change "price": numbers.
+  "priceFrom": true shows "From $30". "priceNote" is the small grey text next to the price.
+  Make the price here match the price on the payment provider.
+
+ADD ANOTHER PRODUCT
+  Copy one whole { ... } block inside "products", paste it after a comma, change:
+  id (no spaces, lowercase), kind (Merch / Music / Services - becomes a filter button), name, price, images, checkout, desc.
+  Sold out? Add   "soldOut": true,
+
+SHARE A PRODUCT DIRECTLY
+  https://maddshiidrecords.github.io/store.html#mame32   opens the Mame32 pop-up straight away.
+  Use these links in your bio, YouTube descriptions, TikTok, Instagram stories and messages.
+
+MAME32 COVER ART
+  Right now the picture is pulled from YouTube. Put your real cover in images/store/mame32.jpg
+  (square, 1000x1000 or bigger) and change "images" for mame32 to ["images/store/mame32.jpg"].
+
+EMAIL LIST (so you can announce drops)
+  Easiest: Mailchimp (you already use it for Breed XI). Audience > Signup forms > Embedded forms >
+  copy the  action="https://...list-manage.com/subscribe/post?u=...&id=..."  link and paste it into
+  "formAction" near the top of the products block. Until then the button just opens an email to you.
+
+WHY NO SHOPPING CART?
+  A cart can only check out items from ONE provider. Your three items are different kinds
+  (physical, download, service), so each has its own Buy button. If you grow to many items,
+  move everything to one platform (Shopify, Big Cartel or Gumroad) and we can add a cart then.

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<!-- Locks the page down: only this site's own code runs, no third-party scripts, nothing can be framed in or posted elsewhere. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; connect-src 'self'; form-action 'self' mailto: https://*.list-manage.com; base-uri 'self'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Store | Madd'Shiid Records</title>
+<meta name="description" content="The Madd'Shiid Records store: official tee, the Mame32 album as a digital download, and mixing and mastering by Breed XI. Secure checkout.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://maddshiidrecords.github.io/store.html">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_ZA">
+<meta property="og:site_name" content="Madd'Shiid Records">
+<meta property="og:title" content="Store | Madd'Shiid Records">
+<meta property="og:description" content="Official tee, Mame32 album download and mixing and mastering by Breed XI.">
+<meta property="og:url" content="https://maddshiidrecords.github.io/store.html">
+<meta property="og:image" content="https://maddshiidrecords.github.io/images/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,800;1,800&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--text:#fff;--muted:#b5b5b5;--pink:#ff0062;--pink-hi:#ff4d8d;--card:#0d0d0d;--line:#2a2a2a;
+  --font-head:"Montserrat","Arial Black",sans-serif;--font-btn:"Raleway","Montserrat",sans-serif;--font-body:"DM Sans","Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:1.05rem;line-height:1.65;overflow-x:hidden}
+body.lock{overflow:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button{font-family:inherit;color:inherit}
+h1,h2,h3{font-family:var(--font-head);font-weight:800;line-height:1.15}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--pink);outline-offset:3px}
+.wrap{width:92%;max-width:1200px;margin:0 auto}
+
+/* ---------- Header (same as the main site) ---------- */
+header{display:flex;align-items:center;justify-content:center;position:relative;padding:14px 5%;background:#000}
+.burger{position:absolute;left:5%;top:50%;transform:translateY(-50%);background:none;border:0;cursor:pointer;width:26px;height:20px;display:flex;flex-direction:column;justify-content:space-between}
+.burger span{display:block;height:3px;background:#fff;width:100%}
+header .logo img{height:32px;width:auto}
+nav.main{display:none}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px 28px}
+nav a{transition:color .2s}
+nav a:hover,nav a.here{color:var(--pink)}
+nav.drawer{display:none;background:#000;padding:10px 5% 24px}
+nav.drawer.open{display:block}
+nav.drawer a{display:block;padding:12px 0;font-size:1.2rem}
+
+/* ---------- Title ---------- */
+.top{position:relative;text-align:center;padding:54px 5% 26px;overflow:hidden}
+.top::before{content:"";position:absolute;inset:0;pointer-events:none;background:url(images/hero-bg.jpg) center/cover no-repeat;opacity:.55;
+  -webkit-mask-image:linear-gradient(to bottom,#000 0,#000 55%,transparent 100%);mask-image:linear-gradient(to bottom,#000 0,#000 55%,transparent 100%)}
+.top>*{position:relative}
+.top h1{font-size:clamp(2.6rem,9vw,4.6rem);text-transform:uppercase;letter-spacing:.02em;text-shadow:0 2px 18px rgba(0,0,0,.9)}
+.top p{font-family:var(--font-head);font-weight:800;font-size:clamp(1rem,3.4vw,1.3rem);margin-top:10px;text-shadow:0 2px 14px rgba(0,0,0,.9)}
+
+/* ---------- Filters ---------- */
+.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:8px 0 34px}
+.chip{background:transparent;border:2px solid var(--line);border-radius:999px;padding:8px 20px;font-family:var(--font-btn);font-weight:700;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:border-color .2s,background .2s}
+.chip:hover{border-color:var(--pink)}
+.chip[aria-pressed="true"]{background:var(--pink);border-color:var(--pink)}
+
+/* ---------- Product grid ---------- */
+.grid{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:34px 14px}
+.grid>li{flex:0 0 calc(50% - 7px)}
+.card{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;background:none;border:0;cursor:pointer;text-align:center;padding:6px}
+.card .im{display:block;position:relative;width:100%;aspect-ratio:1/1;background:var(--card) url(images/logo.jpg) center/52% no-repeat;overflow:hidden;transition:transform .25s,filter .25s}
+.card .im img{width:100%;height:100%;object-fit:cover;position:relative}
+.card:hover .im,.card:focus-visible .im{transform:translateY(-4px);filter:brightness(1.1)}
+.card .nm{font-family:var(--font-btn);font-weight:800;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;line-height:1.35;margin-top:8px}
+.card .pr{font-weight:700;font-size:.92rem;color:var(--text)}
+.card .pr s{color:var(--muted);font-weight:400;margin-right:6px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;min-height:20px}
+.tag{display:inline-block;background:var(--pink);color:#fff;font-family:var(--font-head);font-weight:800;font-style:italic;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;line-height:1.5}
+.tag.grey{background:#3a3a3a}
+.tag.out{background:#d00040}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
+
+/* ---------- Info strip ---------- */
+.strip{display:grid;gap:26px;margin:70px auto 0;padding:44px 0;border-top:1px solid #1c1c1c;border-bottom:1px solid #1c1c1c}
+.strip h3{font-family:var(--font-btn);font-size:.9rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pink);margin-bottom:6px}
+.strip p{color:var(--muted);font-size:.98rem}
+
+/* ---------- Drop list ---------- */
+.drop{text-align:center;max-width:560px;margin:56px auto 70px}
+.drop h2{text-transform:uppercase;font-size:1.6rem;margin-bottom:8px}
+.drop p{color:var(--muted);margin-bottom:18px}
+.drop form{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.drop input{flex:1 1 240px;min-width:0;background:#0d0d0d;border:2px solid var(--line);border-radius:999px;color:#fff;padding:14px 22px;font:inherit}
+.drop input:focus{border-color:var(--pink);outline:none}
+.btn{display:inline-block;background:var(--pink);color:#fff;border:0;border-radius:999px;padding:15px 40px;font-family:var(--font-btn);font-weight:700;font-size:1rem;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;text-align:center;transition:filter .2s,transform .2s}
+.btn:hover{filter:brightness(1.15);transform:translateY(-2px)}
+.btn.ghost{background:transparent;border:2px solid var(--pink)}
+.btn[aria-disabled="true"]{background:#2a2a2a;color:#9a9a9a;cursor:not-allowed;pointer-events:none}
+
+/* ---------- Product dialog ---------- */
+dialog{position:fixed;inset:0;margin:auto;width:min(1000px,100%);max-height:100dvh;height:auto;background:#0a0a0a;color:var(--text);border:2px solid #2f2f2f;padding:0;overflow:auto}
+dialog::backdrop{background:rgba(0,0,0,.82);backdrop-filter:blur(3px)}
+dialog[open]{animation:pop .18s ease-out}
+@keyframes pop{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+.x{position:sticky;top:10px;z-index:5;margin:10px 10px -52px auto;width:42px;height:42px;display:grid;place-items:center;background:#111;border:2px solid #333;border-radius:50%;font-size:1.1rem;cursor:pointer}
+.x:hover{background:var(--pink);border-color:var(--pink)}
+.pd{display:grid;gap:26px;padding:22px 5% 34px}
+.gal .main{aspect-ratio:1/1;background:var(--card) url(images/logo.jpg) center/40% no-repeat;overflow:hidden}
+.gal .main img{width:100%;height:100%;object-fit:cover;position:relative}
+.gal .th{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.gal .th button{width:64px;height:64px;padding:0;background:var(--card);border:2px solid transparent;cursor:pointer;overflow:hidden}
+.gal .th button[aria-current="true"]{border-color:var(--pink)}
+.gal .th img{width:100%;height:100%;object-fit:cover}
+.pd .kind{font-family:var(--font-btn);font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pink)}
+.pd h2{font-size:clamp(1.5rem,5vw,2.1rem);text-transform:uppercase;margin:4px 0 8px}
+.pd .price{font-weight:700;font-size:1.3rem;margin-bottom:16px}
+.pd .price small{color:var(--muted);font-weight:400;font-size:.9rem;margin-left:6px}
+.pd .buy{display:block;width:100%;padding:17px 20px;font-size:1.05rem}
+.pd .lock{color:var(--muted);font-size:.85rem;margin:10px 0 22px}
+.pd p.d{margin-bottom:14px}
+.pd h3{font-family:var(--font-btn);font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pink);margin:22px 0 8px}
+.pd ul,.pd ol{padding-left:1.2em}
+.pd li{margin-bottom:3px}
+.pd .box{border:1px solid var(--line);background:#101010;padding:14px 16px;font-size:.95rem;color:var(--muted)}
+.pd .more{display:inline-block;margin-top:16px;color:var(--pink);font-weight:700;text-decoration:underline}
+
+footer{padding:30px 5% 50px;border-top:1px solid #1c1c1c}
+footer nav ul{margin-bottom:20px}
+footer small{color:var(--muted)}
+
+@media(min-width:600px){.grid{gap:44px 22px}.grid>li{flex-basis:calc(33.333% - 15px)}.strip{grid-template-columns:repeat(3,1fr);gap:36px}}
+@media(min-width:900px){
+  body{font-size:1rem}
+  .burger{display:none}nav.drawer{display:none!important}
+  header{justify-content:space-between;position:sticky;top:0;z-index:40;background:rgba(0,0,0,.92);backdrop-filter:blur(6px)}
+  nav.main{display:block}nav.main ul{gap:30px}
+  nav.main a{font-family:var(--font-btn);font-weight:600;font-size:.95rem;text-transform:uppercase;letter-spacing:.08em}
+  .top{padding:70px 5% 34px}
+  .grid{gap:44px 44px}.grid>li{flex-basis:calc(25% - 33px)}
+  .pd{grid-template-columns:1.05fr 1fr;gap:44px;padding:34px 40px 40px}
+  dialog{max-height:92dvh}
+  footer{display:flex;justify-content:space-between;align-items:center;gap:20px}
+  footer nav ul{margin:0}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <button class="burger" id="burger" aria-label="Menu" aria-controls="drawer" aria-expanded="false"><span></span><span></span><span></span></button>
+  <a class="logo" href="index.html"><img src="images/logo.jpg" alt="Madd'Shiid Records logo" width="629" height="406"></a>
+  <nav class="main" aria-label="Main"><ul>
+    <li><a href="listen.html">Listen</a></li><li><a href="index.html#music">Music</a></li><li><a href="index.html#videos">Videos</a></li><li><a href="index.html#collective">Collective</a></li><li><a href="index.html#about">About</a></li>
+    <li><a class="here" href="store.html" aria-current="page">Store</a></li><li><a href="https://maddshiidrecordsonline.bigcartel.com">Services</a></li>
+  </ul></nav>
+</header>
+<nav class="drawer" id="drawer" aria-label="Mobile">
+  <a href="listen.html">Listen</a><a href="index.html#music">Music</a><a href="index.html#videos">Videos</a><a href="index.html#collective">Collective</a><a href="index.html#about">About</a>
+  <a href="store.html" aria-current="page">Store</a><a href="https://maddshiidrecordsonline.bigcartel.com">Services</a>
+</nav>
+
+<main>
+  <div class="top">
+    <h1>Store</h1>
+    <p>“You Smash People, We Smash Records!”</p>
+  </div>
+
+  <div class="wrap">
+    <div class="filters" id="filters" role="group" aria-label="Filter products"></div>
+    <ul class="grid" id="grid"></ul>
+    <noscript><p class="empty">The store needs JavaScript. Or email <a href="mailto:maddshiidrecords@gmail.com" style="color:var(--pink);text-decoration:underline">maddshiidrecords@gmail.com</a> to order.</p></noscript>
+
+    <div class="strip">
+      <div><h3>Secure checkout</h3><p>Payments are handled on the payment provider's own secure page. We never see or store your card details.</p></div>
+      <div><h3>Digital downloads</h3><p>Downloads are available straight after payment, and a link is emailed to you so you can grab them again.</p></div>
+      <div><h3>Questions?</h3><p>Email <a href="mailto:maddshiidrecords@gmail.com" style="text-decoration:underline">maddshiidrecords@gmail.com</a> and a real person from the collective will reply.</p></div>
+    </div>
+
+    <section class="drop" id="drop" aria-labelledby="dropH"></section>
+  </div>
+</main>
+
+<footer>
+  <nav aria-label="Footer"><ul>
+    <li><a href="index.html">Home</a></li><li><a href="listen.html">Listen</a></li><li><a href="index.html#collective">Collective</a></li><li><a href="index.html#about">About</a></li>
+  </ul></nav>
+  <nav class="follow" aria-label="Social"><ul>
+    <li><a href="https://instagram.com/maddshiidrecords" rel="me">Instagram</a></li>
+    <li><a href="https://youtube.com/@maddshiidrecords" rel="me">YouTube</a></li>
+    <li><a href="https://www.tiktok.com/@maddshiidrecords" rel="me">TikTok</a></li>
+    <li><a href="https://x.com/maddshiidrec" rel="me">X</a></li>
+    <li><a href="mailto:maddshiidrecords@gmail.com">Email</a></li>
+  </ul></nav>
+  <small>© ℗ 2026 Madd'Shiid Records</small>
+</footer>
+
+<dialog id="pd" aria-labelledby="pdTitle"></dialog>
+
+<!-- =====================================================================
+     YOUR PRODUCTS  -  this is the only part you edit to run the store.
+     Add, remove or change items below (see STORE-SETUP.txt).
+
+     checkout : the link to the item's page on your payment provider
+                (Gumroad, Big Cartel, Stripe Payment Link, Paystack, PayPal...).
+                Leave "" and the item shows "Coming soon".
+     Prices below are SAMPLE prices - change them to your real ones.
+     ===================================================================== -->
+<script type="application/json" id="store-data">
+{
+  "currency": "USD",
+  "newsletter": {
+    "title": "Get drop alerts",
+    "text": "New releases and limited runs go here first. No spam.",
+    "formAction": "",
+    "fallbackEmail": "maddshiidrecords@gmail.com"
+  },
+  "products": [
+    {
+      "id": "tee-black",
+      "kind": "Merch",
+      "name": "Madd'Shiid Records Tee [Black]",
+      "price": 25,
+      "badges": ["Official Merch"],
+      "images": ["images/store/tee-black.jpg"],
+      "checkout": "",
+      "desc": [
+        "The official Madd'Shiid Records tee. Black, unisex fit, with the logo printed on the chest."
+      ],
+      "includes": ["1 x Madd'Shiid Records tee (black)", "Choose your size at checkout"],
+      "delivery": "Shipped to your door. You'll enter your address and see shipping costs at checkout."
+    },
+    {
+      "id": "mame32",
+      "kind": "Music",
+      "name": "Mame32 [Digital Album + ZIP]",
+      "price": 5,
+      "priceNote": "or pay more if you want to support us",
+      "badges": ["Digital", "Instant Download"],
+      "images": ["https://i.ytimg.com/vi/3hxMw3SL1cM/mqdefault.jpg"],
+      "checkout": "",
+      "desc": [
+        "Mame32 by Hassan Black, the full album as a high-quality download you own forever. No streaming needed, play it anywhere."
+      ],
+      "includes": ["Full album in one ZIP file", "8 tracks", "Cover art"],
+      "tracklist": ["I Wanna Be with You (Too Late)", "Surprised (I Changed)", "Too Real 2 (Real Me)", "Stones", "Clouds", "Night Sky (Mame32)", "4 Dollar Bills", "Pvp"],
+      "delivery": "Instant download after payment. A download link is also emailed to you."
+    },
+    {
+      "id": "mixing-mastering",
+      "kind": "Services",
+      "name": "Mixing & Mastering by Breed XI",
+      "price": 30,
+      "priceFrom": true,
+      "badges": ["Service"],
+      "images": ["images/breed-xi.jpg"],
+      "checkout": "",
+      "desc": [
+        "Professional audio mixing and mastering from Breed XI, producer and engineer at Madd'Shiid Records, including complete Dolby mastering.",
+        "Your finished tracks come back ready for release on Spotify, iTunes, Tidal, Apple Music, Deezer and other streaming platforms."
+      ],
+      "includes": ["Audio mixing", "Complete Dolby mastering", "Release-ready files for all major streaming platforms"],
+      "delivery": "After you order, you'll be told exactly how to send your files. Questions first? Email us before you buy.",
+      "more": { "label": "More about Breed XI", "url": "https://breedxi.mailchimpsites.com" }
+    }
+  ]
+}
+</script>
+
+<script>
+(() => {
+'use strict';
+const D = JSON.parse(document.getElementById('store-data').textContent);
+const $ = (s, r = document) => r.querySelector(s);
+const esc = t => String(t == null ? '' : t).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+
+/* Safety: a Buy button only ever opens an https link on one of these payment sites.
+   Anything else (a typo, a bad edit) is ignored and the item shows "Coming soon".
+   Using another provider? Add its domain here. */
+const PAY_HOSTS = ['gumroad.com', 'bigcartel.com', 'buy.stripe.com', 'checkout.stripe.com', 'paypal.com', 'paypal.me', 'paystack.com', 'paystack.shop', 'payfast.co.za', 'shop.app', 'myshopify.com', 'lemonsqueezy.com', 'bandcamp.com', 'ko-fi.com', 'selar.co'];
+function payUrl(u) {
+  try { const x = new URL(u); if (x.protocol !== 'https:') return '';
+    return PAY_HOSTS.some(d => x.hostname === d || x.hostname.endsWith('.' + d)) ? x.href : ''; } catch (e) { return ''; }
+}
+function infoUrl(u) { try { const x = new URL(u); return x.protocol === 'https:' ? x.href : ''; } catch (e) { return ''; } }
+
+const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: D.currency || 'USD' });
+const priceText = p => (p.priceFrom ? 'From ' : '') + money.format(p.price);
+const P = D.products.filter(p => p && p.id && p.name);
+const byId = id => P.find(p => p.id === id);
+const imgs = p => (p.images && p.images.length ? p.images : []);
+const tagsHtml = p => (p.soldOut ? '<span class="tag out">Sold out</span>' : '') + (p.badges || []).map(b => '<span class="tag' + (/^(digital|service|official)/i.test(b) ? ' grey' : '') + '">' + esc(b) + '</span>').join('');
+const imgTag = (src, alt) => '<img src="' + esc(src) + '" alt="' + esc(alt) + '" loading="lazy" decoding="async" data-fb>';
+
+/* If a picture fails to load, fall back to the logo tile behind it */
+document.addEventListener('error', e => { if (e.target.matches && e.target.matches('img[data-fb]')) e.target.style.display = 'none'; }, true);
+
+/* ---------- Grid + filters ---------- */
+let filter = 'All';
+const kinds = ['All', ...new Set(P.map(p => p.kind).filter(Boolean))];
+function renderFilters() {
+  const el = $('#filters');
+  if (kinds.length < 3) { el.hidden = true; return; }
+  el.innerHTML = kinds.map(k => '<button class="chip" type="button" aria-pressed="' + (k === filter) + '" data-k="' + esc(k) + '">' + esc(k) + '</button>').join('');
+}
+function renderGrid() {
+  const list = P.filter(p => filter === 'All' || p.kind === filter);
+  $('#grid').innerHTML = list.length ? list.map(p =>
+    '<li><button class="card" type="button" data-id="' + esc(p.id) + '" aria-haspopup="dialog" aria-label="' + esc(p.name + ', ' + priceText(p)) + '">' +
+    '<span class="im">' + (imgs(p)[0] ? imgTag(imgs(p)[0], p.name) : '') + '</span>' +
+    '<span class="nm">' + esc(p.name) + '</span><span class="pr">' + esc(priceText(p)) + '</span>' +
+    '<span class="tags">' + tagsHtml(p) + '</span></button></li>').join('') : '<li class="empty">Nothing here yet.</li>';
+}
+$('#filters').addEventListener('click', e => { const b = e.target.closest('[data-k]'); if (!b) return; filter = b.dataset.k; renderFilters(); renderGrid(); });
+$('#grid').addEventListener('click', e => { const b = e.target.closest('[data-id]'); if (b) openProduct(b.dataset.id, b); });
+
+/* ---------- Product dialog ---------- */
+const dlg = $('#pd');
+let lastFocus = null, curId = '';
+function openProduct(id, from) {
+  const p = byId(id); if (!p) return;
+  curId = id;
+  lastFocus = from || document.activeElement;
+  const im = imgs(p), url = p.soldOut ? '' : payUrl(p.checkout);
+  const buy = url
+    ? '<a class="btn buy" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + (p.kind === 'Services' ? 'Order now' : 'Buy now') + ' &middot; ' + esc(priceText(p)) + '</a>'
+    : '<span class="btn buy" role="link" aria-disabled="true">' + (p.soldOut ? 'Sold out' : 'Coming soon') + '</span>';
+  const more = p.more && infoUrl(p.more.url) ? '<a class="more" href="' + esc(infoUrl(p.more.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(p.more.label || 'Learn more') + ' &#8599;</a>' : '';
+  dlg.innerHTML =
+    '<button class="x" type="button" aria-label="Close" data-close>&#10005;</button>' +
+    '<div class="pd"><div class="gal"><div class="main">' + (im[0] ? imgTag(im[0], p.name) : '') + '</div>' +
+    (im.length > 1 ? '<div class="th">' + im.map((s, i) => '<button type="button" data-th="' + i + '" aria-label="Show picture ' + (i + 1) + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + imgTag(s, '') + '</button>').join('') + '</div>' : '') + '</div>' +
+    '<div class="info"><p class="kind">' + esc(p.kind || '') + '</p><h2 id="pdTitle">' + esc(p.name) + '</h2>' +
+    '<p class="price">' + esc(priceText(p)) + (p.priceNote ? '<small>' + esc(p.priceNote) + '</small>' : '') + '</p>' + buy +
+    '<p class="lock">&#128274; Secure checkout on the payment provider\'s own page.</p>' +
+    (p.desc || []).map(t => '<p class="d">' + esc(t) + '</p>').join('') +
+    (p.includes && p.includes.length ? '<h3>What you get</h3><ul>' + p.includes.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' : '') +
+    (p.tracklist && p.tracklist.length ? '<h3>Tracklist</h3><ol>' + p.tracklist.map(t => '<li>' + esc(t) + '</li>').join('') + '</ol>' : '') +
+    (p.delivery ? '<h3>Delivery</h3><div class="box">' + esc(p.delivery) + '</div>' : '') + more + '</div></div>';
+  if (!dlg.open) dlg.showModal();
+  document.body.classList.add('lock');
+  try { history.replaceState(null, '', '#' + encodeURIComponent(p.id)); } catch (e) {}
+}
+dlg.addEventListener('click', e => {
+  if (e.target === dlg || e.target.closest('[data-close]')) { dlg.close(); return; }
+  const t = e.target.closest('[data-th]'), p = byId(curId);
+  if (t && p) {
+    $('.gal .main', dlg).innerHTML = imgTag(imgs(p)[+t.dataset.th], p.name);
+    dlg.querySelectorAll('[data-th]').forEach(b => { if (b === t) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
+  }
+});
+dlg.addEventListener('close', () => {
+  document.body.classList.remove('lock');
+  try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+  if (lastFocus && lastFocus.focus) lastFocus.focus();
+});
+/* share a product directly: store.html#mame32 opens it */
+function fromHash() { const id = decodeURIComponent(location.hash.slice(1) || ''); if (id && byId(id)) openProduct(id); }
+
+/* ---------- Drop list ---------- */
+(function () {
+  const n = D.newsletter || {}, el = $('#drop');
+  const action = n.formAction && /^https:\/\/[\w.-]+\.list-manage\.com\//.test(n.formAction) ? n.formAction : '';
+  el.innerHTML = '<h2 id="dropH">' + esc(n.title || 'Get drop alerts') + '</h2><p>' + esc(n.text || '') + '</p>' + (action
+    ? '<form action="' + esc(action) + '" method="post" target="_blank" novalidate><input type="email" name="EMAIL" required placeholder="Your email" aria-label="Your email"><button class="btn" type="submit">Sign up</button></form>'
+    : '<a class="btn ghost" href="mailto:' + esc(n.fallbackEmail || 'maddshiidrecords@gmail.com') + '?subject=' + encodeURIComponent('Add me to the drop list') + '">Join by email</a>');
+})();
+
+/* ---------- Mobile menu ---------- */
+const burger = $('#burger'), drawer = $('#drawer');
+burger.addEventListener('click', () => { const o = drawer.classList.toggle('open'); burger.setAttribute('aria-expanded', String(o)); });
+
+window.addEventListener('hashchange', () => { if (!dlg.open) fromHash(); });
+renderFilters(); renderGrid(); fromHash();
+})();
+</script>
+</body>
+</html>
