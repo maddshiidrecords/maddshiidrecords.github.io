@@ -275,7 +275,7 @@ canvas.g{background:#000;border:2px solid var(--line);max-width:100%;touch-actio
   <nav aria-label="Main"><ul>
     <li><a class="here" href="listen.html">Listen</a></li>
     <li><a href="index.html#music">Music</a></li><li><a href="index.html#videos">Videos</a></li><li><a href="index.html#collective">Collective</a></li><li><a href="index.html#about">About</a></li>
-    <li><a href="https://maddshiidrecords.gumroad.com/">Store</a></li><li><a href="https://maddshiidrecordsonline.bigcartel.com">Services</a></li>
+    <li><a href="store.html">Store</a></li><li><a href="https://maddshiidrecordsonline.bigcartel.com">Services</a></li>
   </ul></nav>
   <a class="back" href="index.html">← Main site</a>
 </header>
@@ -326,7 +326,7 @@ const MEMBERS = [
 ];
 const LINKS = [
   { label: "Main site",  href: "index.html" },
-  { label: "Store",      href: "https://maddshiidrecords.gumroad.com/" },
+  { label: "Store",      href: "store.html" },
   { label: "Services",   href: "https://maddshiidrecordsonline.bigcartel.com" },
   { label: "YouTube",    href: "https://youtube.com/@maddshiidrecords" },
   { label: "Instagram",  href: "https://instagram.com/maddshiidrecords" },
@@ -975,7 +975,7 @@ function appTerm(body, win) {
     exit() { say('Logging out...'); setTimeout(() => location.href = 'index.html', 500); },
     artists() { say(MEMBERS.map(m => ' - ' + m.name).join('\n')); },
     socials() { say(LINKS.map(l => l.label.padEnd(10) + l.href).join('\n')); },
-    store() { say('https://maddshiidrecords.gumroad.com/'); window.open('https://maddshiidrecords.gumroad.com/', '_blank', 'noopener'); },
+    store() { say('Opening the store...'); location.href = 'store.html'; },
     tracks() { if (!DATA.music.length) return say('Track list is syncing. Try: open music'); say(DATA.music.slice(0, 25).map((t, i) => String(i + 1).padStart(2) + '. ' + trackName(t) + '  [' + t.artist + ']').join('\n') + (DATA.music.length > 25 ? '\n... ' + (DATA.music.length - 25) + ' more' : '')); },
     videos() { say(DATA.videos.map((v, i) => String(i + 1).padStart(2) + '. ' + vidName(v)).join('\n')); },
     play(a) {
@@ -1013,7 +1013,7 @@ function appTerm(body, win) {
 const ICONS = [
   { app: 'music', label: 'Music' }, { app: 'videos', label: 'Videos' }, { app: 'col', label: 'Collective' },
   { app: 'beat', label: 'Beat Lab' }, { app: 'games', label: 'Games' }, { app: 'term', label: 'Terminal' },
-  { href: 'https://maddshiidrecords.gumroad.com/', icon: 'store', label: 'Store', ext: true },
+  { href: 'store.html', icon: 'store', label: 'Store' },
   { href: 'index.html', icon: 'home', label: 'Main Site' }
 ];
 $('#icons').innerHTML = ICONS.map((i, n) => i.app
